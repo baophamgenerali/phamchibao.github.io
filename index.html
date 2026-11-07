@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BAO_AI - Autonomous AI Organization Platform">
+    <title>BAO_AI | Intelligent Organization</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1020;
+            color: #f5f7ff;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 24px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #222a40;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: #e63946;
+        }
+
+        nav a {
+            color: #c4c9d8;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            min-height: 70vh;
+            padding: 100px 8%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .tag {
+            color: #f06b75;
+            font-size: 13px;
+            letter-spacing: 3px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: clamp(42px, 7vw, 76px);
+            line-height: 1.1;
+            max-width: 850px;
+            margin-bottom: 25px;
+        }
+
+        h1 span {
+            color: #e63946;
+        }
+
+        .description {
+            max-width: 650px;
+            color: #aab2c5;
+            font-size: 17px;
+            margin-bottom: 35px;
+        }
+
+        .button {
+            display: inline-block;
+            width: fit-content;
+            background: #e63946;
+            color: white;
+            padding: 13px 27px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #c92e3a;
+        }
+
+        .section {
+            padding: 65px 8%;
+            border-top: 1px solid #222a40;
+        }
+
+        .section h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .section-intro {
+            color: #aab2c5;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            padding: 25px;
+            background: #141c30;
+            border: 1px solid #27314a;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+            color: #f06b75;
+        }
+
+        .card p {
+            color: #aab2c5;
+            font-size: 14px;
+        }
+
+        footer {
+            padding: 30px 8%;
+            text-align: center;
+            color: #778198;
+            border-top: 1px solid #222a40;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero {
+                padding-top: 75px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">BAO<span>_AI</span></div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#business">Business Units</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="tag">AUTONOMOUS AI ORGANIZATION</div>
+
+        <h1>
+            Building an<br>
+            <span>Intelligent Organization.</span>
+        </h1>
+
+        <p class="description">
+            BAO_AI is an expandable AI organization platform
+            designed to coordinate intelligent agents, manage
+            business operations and automate workflows
+            across multiple independent business units.
+        </p>
+
+        <a href="#architecture" class="button">
+            Explore BAO_AI
+        </a>
+    </section>
+
+    <section class="section" id="about">
+        <h2>About BAO_AI</h2>
+
+        <p class="section-intro">
+            One intelligent platform. Multiple autonomous business units.
+        </p>
+
+        <p style="max-width: 800px; color: #aab2c5;">
+            BAO_AI aims to become a centralized AI organization
+            infrastructure where specialized agents collaborate,
+            execute tasks, manage information and continuously
+            improve business operations.
+        </p>
+    </section>
+
+    <section class="section" id="architecture">
+        <h2>Core Architecture</h2>
+
+        <p class="section-intro">
+            A modular and scalable AI ecosystem.
+        </p>
+
+        <div class="grid">
+            <div class="card">
+                <h3>AI Core</h3>
+                <p>Central intelligence, orchestration and agent coordination.</p>
+            </div>
+
+            <div class="card">
+                <h3>Memory & Database</h3>
+                <p>Structured data, persistent memory and knowledge management.</p>
+            </div>
+
+            <div class="card">
+                <h3>AI Organization Development</h3>
+                <p>Developing new capabilities, workflows and business units.</p>
+            </div>
+
+            <div class="card">
+                <h3>Integration Layer</h3>
+                <p>Connecting external tools, applications and services.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="business">
+        <h2>Business Units</h2>
+
+        <p class="section-intro">
+            Independent workspaces operating within one platform.
+        </p>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Deli Business Office</h3>
+                <p>Business analysis, sales operations, reporting and planning.</p>
+            </div>
+
+            <div class="card">
+                <h3>MMO Business Office</h3>
+                <p>Digital business, research, automation and growth operations.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    BAO_AI © 2026 | Intelligent Organization Platform
+    <br>
+    Built for the future.
+</footer>
+
+</body>
+</html>
